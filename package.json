@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-website-on-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasaharaDaijiro/Ecommerce-Website-on-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KasaharaDaijiro/Ecommerce-Website-on-docker/issues"
+  },
+  "homepage": "https://github.com/KasaharaDaijiro/Ecommerce-Website-on-docker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
