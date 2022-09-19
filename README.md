@@ -6,14 +6,9 @@ npm 8.15.0
 
 ## 動作手順
 
-- docker images 作成
+- docker 起動
 ```
-docker build . -t <your tag name>
-```
-
-- docker container 起動
-```
-docker run -p 4440:4440 -d <your tag name>
+docker compose up -d
 ```
 
 - server閲覧
