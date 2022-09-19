@@ -1,11 +1,12 @@
 {
   "name": "ecommerce-website-on-docker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Nodejs on docker",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

@@ -6,9 +6,15 @@ npm 8.15.0
 
 ## 動作手順
 
-- server 起動
+- docker images 作成
 ```
-npm run dev
+docker build . -t <your tag name>
 ```
+
+- docker container 起動
+```
+docker run -p 4440:4440 -d <your tag name>
+```
+
 - server閲覧
-'http://localhost:3000'に接続
+'http://localhost:4440'に接続
